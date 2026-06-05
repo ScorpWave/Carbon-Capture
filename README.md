@@ -7,9 +7,7 @@ Category 1: CO₂ Capture
 
 Category 2: CO₂ Recovery
 
-Category 3: CO₂ Capture Efficiency 
-
-Category 4: CO₂ Recovery Efficiency
+Category 3: Capture vs. Recovery Gap 
 
 The dataset was cleaned, aggregated, and analyzed in Excel, and Power Query before being visualized in Power BI.
 
