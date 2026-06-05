@@ -32,55 +32,42 @@ The data model comprises six tables capturing CO₂ capture and recovery perform
 
 # Executive Summary
 ## Overview of Findings
-Between 2021 and 2025, the NHS experienced a substantial increase in A&E attendances, but performance against the 4-hour target consistently fell short of the 95% standard. Emergency admissions rose sharply, and some providers showed significantly higher volumes and delays.
+Across five experimental runs, the CO₂ capture system demonstrated consistently high capture efficiency but variable recovery performance depending on sorbent generation and configuration. Zeolite-based runs showed significantly lower capture volumes, while Gen 1 sorbent runs dominated total throughput.
 
-* Total A&E attendances rose from 22.8M in 2021 to 27.4M in 2024.
-* Only 69.14% of patients were seen within 4 hours as of 2024, well below the 95% target.
-* Emergency admissions surged to 25M from 2021 to January 2025.
-* Major A&E departments are responsible for the majority of delays.
-# Insights Deep Dive
-## Category 1: Total A&E Attendances
-* Attendance increased 20% from 22.8M in 2021 to 27.4M in 2024.
-* Major trusts like Barts Health NHS Trust and Manchester University NHS Foundation Trust recorded over 2M attendances each.
-* The rise in attendance reflects increased pressure on emergency services post-pandemic.
+* Total CO₂ captured across all runs reached 449.80 kg, with Run 1 Gen 1 contributing the highest volume at 173.89 kg.
+*	CO₂ Capture Efficiency averaged 99.54%, indicating near-complete adsorption performance across cycles.
+*	Total CO₂ recovered was 70.54 kg, reflecting an overall Recovery Efficiency of only 41.41%.
+*	Run 3 (Zeolite only) recorded the lowest capture and recovery, suggesting limited sorbent effectiveness under tested conditions.
+*	Significantly detected Gen 2 sorbent inefficiency normally it should be better than Gen 1 and determined it as the root cause of operational issues, and drove cost savings by discontinuing its production.
+
+# Insights 
+## Category 1: CO₂ Capture 
+*	Capture volume varied significantly across runs, ranging from 5.86 kg (Run 3 Zeolite) to 173.89 kg (Run 1 Gen 1).
+*	Runs using Gen 1 sorbent alone or in combination consistently outperformed Zeolite-only configurations.
+*	Run 2 Gen 1 + Gen 2 by half-half capture around 164.26 kg. It should be better than pure Gen 1
+*	The high capture efficiency (~99.54%) across most cycles confirms the adsorption stage is operating effectively.
+
 
 ![image](https://github.com/user-attachments/assets/d780664f-0fbf-4ed9-b703-98c52e71ff5a)
 
-## Category 2: 4-Hour Standard Compliance
-* The 4-hour performance rate dropped below 70%, far short of the 95% NHS benchmark.
-* A&E departments managed to see only 69.14% of patients within 4 hours in 2024.
-* Patients waiting more than 4 hours rose to over 18M annually.
-* Minor Injury Units performed better, while Major A&Es saw significant backlogs.
+## Category 2: CO₂ Recovery 
+*	Run 3 (Zeolite) recorded the lowest total recovery at 1.16 kg, while Run 2 Gen 1+2 achieved the highest at 20.35 kg.
+*	Recovery efficiency showed high variability across cycles, with values ranging from near 0% to 100% within individual runs.
+*	The scatter pattern in the Recovery Efficiency chart suggests desorption performance is sensitive to cycle conditions and sorbent type.
+
 
 ![image](https://github.com/user-attachments/assets/d72c7c2f-f368-43f4-bdaa-d0199444ff3d)
 
-## Category 3: Emergency Admissions
-* Emergency admissions climbed from 6M in 2021 to 6.6M in 2024.
-* Breakdown shows >4h and >12h delays contributing significantly to strain.
-* University Hospitals Birmingham had the highest emergency admissions volume (~0.74M).
+## Category 3: Capture vs. Recovery Gap
+*	A significant gap exists between capture (449.80 kg) and recovery (70.54 kg), indicating that while CO₂ is effectively adsorbed, a large portion is not successfully desorbed and collected.
+*	Optimizing the desorption phase particularly may be key to improving overall system efficiency.
+
 
 ![image](https://github.com/user-attachments/assets/818cd3e8-d327-4d71-b4c8-e1a4122a7161)
 
-## Category 4: Provider-Level and Departmental Trends
-* Top 10 providers accounted for over 15M attendances cumulatively.
-* Major A&E departments showed the worst performance in meeting the 4-hour rule.
-* Only 2.53% of attendances were seen in single-specialty departments within 4 hours.
-* These trusts are not underperforming in the traditional sense but are operating under disproportionate pressure with limited resources.
-* The gap between patients seen in <4h vs >4h widened steadily from 2021 to 2024.
-* High-volume providers like Barts Health and Manchester University NHS Trust see over 2 million attendances annually, which puts immense strain on staff and physical infrastructure.
-* The performance gap is systemic, rooted in national workforce shortages, seasonal surges, and post-pandemic demand increases.
-
-![image](https://github.com/user-attachments/assets/9b4caa6e-9735-4407-9907-88cf56ec0a52)
 
 # Recommendations
-* Capacity-Driven Support: Instead of penalizing trusts with low 4-hour compliance, identify them as high-pressure sites and prioritize them for additional staffing, funding, and infrastructure support.
-* Resource Scaling: Invest in scalable A&E surge capacity, including temporary staff pools and modular treatment spaces, particularly for trusts facing sustained high volumes.
-* Workforce Strategy: Expand recruitment, retention, and upskilling initiatives to alleviate shortages in critical roles (A&E doctors, nurses, porters).
-* Intelligent Triage & Flow Management: Deploy digital triage tools and discharge planning systems to reduce bottlenecks and free up beds faster.
-* Public Health & Diversion Initiatives: Strengthen urgent treatment centres (UTCs) and 111 services to redirect non-critical cases before they reach A&E.
+*	Desorption Optimization: Given the large gap between capture efficiency (99.54%) and recovery efficiency (41.41%), further investigation into the desorption phase is critical. Temperature swing parameters and heating duration should be systematically varied to improve CO₂ release from the sorbent bed.
+*	Scaling for Higher Throughput: Run 1 and Run 2 demonstrated the highest capture volumes (173.89 kg and 164.26 kg respectively). These configurations should be prioritized as the baseline for scaled-up pilot testing, with attention to maintaining efficiency at larger sorbent bed volumes.
+*	Run Monitoring & Real-Time Diagnostics: Deploy cycle-level monitoring dashboards to detect early signs of sorbent degradation or performance drops, enabling proactive intervention before efficiency losses accumulate across long runs.
 
-# Assumptions
-* Data completeness from NHS England is assumed post-cleaning.
-* All KPIs calculated based on provided categories without imputation.
-* Data filtered for completeness across Jan 2021–Jan 2025 only.
-* Departmental breakdowns used NHS classification of major/minor/specialty A&Es.
