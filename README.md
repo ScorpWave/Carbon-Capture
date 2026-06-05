@@ -13,7 +13,7 @@ Category 4: CO₂ Recovery Efficiency
 
 The dataset was cleaned, aggregated, and analyzed in Excel, and Power Query before being visualized in Power BI.
 
-<a href="Carbon-Capture Dashboard.pdf" target="_blank" class="btn btn-secondary">View Dashboard</a>
+📊<a href="Carbon-Capture Dashboard.pdf" target="_blank" class="btn btn-secondary">View Dashboard</a>
 
 # Dataset Description
 The data model comprises three tables capturing NHS A&E performance across time, geography, providers, and metrics, totaling 151,270 records
