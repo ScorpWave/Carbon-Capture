@@ -16,16 +16,17 @@ The dataset was cleaned, aggregated, and analyzed in Excel, and Power Query befo
 📊<a href="Carbon-Capture Dashboard.pdf" target="_blank" class="btn btn-secondary">View Dashboard</a>
 
 # Dataset Description
-The data model comprises three tables capturing NHS A&E performance across time, geography, providers, and metrics, totaling 151,270 records
+The data model comprises six tables capturing CO₂ capture and recovery performance across experimental runs, cycles, and efficiency metrics, totaling 363,330 records.
 
 ## Tables
-* AE_Activity_Fact: Main fact table with A&E activity data (categories, timeframes, date, provider, region, value).
-* DateTable: Date dimension for filtering and time analysis (date, month, quarter, year).
-* Trends Selector: Helper table for trend slicers (selector name, field mapping, order).
-  
-### Calculated Measures
-* Emergency Admission Measures: Calculated columns/measures for emergency admissions.
-* DAX Measures: Pre-calculated KPIs (e.g., % Seen after 4 hours).
+* CO₂ Capture & Recovery: Main fact table with raw experimental data (CO₂ capture in kg, CO₂ recovery in kg, run number).
+* CO₂ Capture Cumulatives: Aggregated table tracking cumulative CO₂ captured over time (cumulative value in kg).
+*	CO₂ Recovery Cumulatives: Aggregated table tracking cumulative CO₂ recovered over time (cumulative value in kg).
+* CO₂ Capture Efficiency: Measure table for capture efficiency calculations (percentage).
+* CO₂ Recovery Efficiency: Measure table for recovery efficiency calculations (percentage).
+* CO₂ Capture Efficiency (by Cycle): Helper table for cycle-level efficiency breakdown (% captured, cycle number).
+* CO₂ Capture Recovery (by Cycle): Helper table for cycle-level recovery breakdown (% recovery, cycle number).
+
   
 ![image](https://github.com/user-attachments/assets/b2450f01-f074-4e75-a70e-275de9d03bd4)
 
