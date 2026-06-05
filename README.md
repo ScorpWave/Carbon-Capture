@@ -50,7 +50,8 @@ Across five experimental runs, the CO₂ capture system demonstrated consistentl
 *	The high capture efficiency (~99.54%) across most cycles confirms the adsorption stage is operating effectively.
 
 
-![image](https://github.com/user-attachments/assets/d780664f-0fbf-4ed9-b703-98c52e71ff5a)
+<img width="575" height="521" alt="CO2 Capture" src="https://github.com/user-attachments/assets/815ac454-f33f-4073-b1b4-95dc212779f5" />
+
 
 ## Category 2: CO₂ Recovery 
 *	Run 3 (Zeolite) recorded the lowest total recovery at 1.16 kg, while Run 2 Gen 1+2 achieved the highest at 20.35 kg.
@@ -58,14 +59,16 @@ Across five experimental runs, the CO₂ capture system demonstrated consistentl
 *	The scatter pattern in the Recovery Efficiency chart suggests desorption performance is sensitive to cycle conditions and sorbent type.
 
 
-![image](https://github.com/user-attachments/assets/d72c7c2f-f368-43f4-bdaa-d0199444ff3d)
+<img width="707" height="521" alt="CO2 Recovery" src="https://github.com/user-attachments/assets/c49157a8-d053-4c9d-946a-da6fcd136f67" />
+
 
 ## Category 3: Capture vs. Recovery Gap
 *	A significant gap exists between capture (449.80 kg) and recovery (70.54 kg), indicating that while CO₂ is effectively adsorbed, a large portion is not successfully desorbed and collected.
 *	Optimizing the desorption phase particularly may be key to improving overall system efficiency.
 
 
-![image](https://github.com/user-attachments/assets/818cd3e8-d327-4d71-b4c8-e1a4122a7161)
+<img width="642" height="132" alt="Total CO2 Capture vs CO2 Recovery" src="https://github.com/user-attachments/assets/abf38b09-6078-4da2-b07d-4927f31f3277" />
+
 
 
 # Recommendations
