@@ -28,7 +28,9 @@ The data model comprises six tables capturing CO₂ capture and recovery perform
 * CO₂ Capture Recovery (by Cycle): Helper table for cycle-level recovery breakdown (% recovery, cycle number).
 
   
-![image](https://github.com/user-attachments/assets/b2450f01-f074-4e75-a70e-275de9d03bd4)
+<img width="1777" height="735" alt="Data-Model-CCUS" src="https://github.com/user-attachments/assets/ab8708f5-6d8d-43a4-8714-6864b9524781" />
+
+
 
 # Executive Summary
 ## Overview of Findings
