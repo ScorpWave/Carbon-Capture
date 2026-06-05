@@ -1,4 +1,4 @@
-<img width="103" height="67" alt="image" src="https://github.com/user-attachments/assets/74ecf65c-c8f2-4999-9599-e3a5b941ca74" /># Carbon-Capture
+# Carbon-Capture
 This project analyzes CO₂ data across the Bangchak refinery in Bangkok from September 2025 to March 2026 based on pilot scale.  The dataset, sourced from PLC machine(already uploaded in repositories), was cleaned and merged into a single table to track key performance indicators like CO₂ Capture, CO₂ Recovery, CO₂ Capture Efficiency, and CO₂ Recovery Efficiency. The standard mandates that CO₂ Capture Efficiency and CO₂ Recovery Efficiency should be 99%+ and 95%+ respectively. This dashboard helps assess performance across half years.
 
 Insights and recommendations are provided on the following key areas:
