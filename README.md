@@ -14,7 +14,7 @@ The dataset was cleaned, aggregated, and analyzed in Excel, and Power Query befo
 📊<a href="Carbon-Capture Dashboard.pdf" target="_blank" class="btn btn-secondary">View Dashboard</a>
 
 # Dataset Description
-The data model comprises six tables capturing CO₂ capture and recovery performance across experimental runs, cycles, and efficiency metrics, totaling 363,330 records.
+The data model comprises seven tables capturing CO₂ capture and recovery cumulatives across experimental runs, efficiency metrics by total, and efficiency metrics by cycle, totaling 363,330 records.
 
 ## Tables
 * CO₂ Capture & Recovery: Main fact table with raw experimental data (CO₂ capture in kg, CO₂ recovery in kg, run number).
